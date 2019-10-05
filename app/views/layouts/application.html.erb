@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleApp</title>
+    <title>One Month Rails - Steve Wagner</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= link_to "Home", root_path %>
+    <%= link_to "About", about_path %>
+    <%= link_to "Contact", contact_path %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
