@@ -7,7 +7,7 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require("jquery-rails")
+require("jquery3.4.1")
 require("popper")
 require("bootstrap-sprockets")
 
